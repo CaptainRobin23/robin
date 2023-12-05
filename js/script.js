@@ -7,6 +7,18 @@
   var startSearchAnim = function(){
     isSearchAnim = true;
   };
+  服务接收来自Portal的请求，根据用户选择的服务框架，产生满足服务框架要求的服务初始工程。当前支持的框架有：CloudSOP框架，Spring MVC/Boot框架，SpringCloud，Python Pecan等框架。对于每一种框架，支持带UI的WebSite类服务和不带UI的纯后台服务。
+
+主要功能
+创建服务开发框架，支持多语言
+
+生成服务代码托管、开发和测试环境、编译工程，测试框架、流水线
+
+服务搜索、服务列表及详情
+
+集成Maven仓库
+
+对接代码配置库
 
   var stopSearchAnim = function(callback){
     setTimeout(function(){
